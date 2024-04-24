@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritesh Bobhate -Web devloper,Programer, ML Enthusiat\st</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+    <div class="sidebar">
+         
+      <nav>
+        <ul>
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="portfolio.html">Home</a>
+                <a href="Blogs.html">MY Blogs</a>
+                <a href="skills.html">My Skills</a>
+                <a href="Contactme.html">Contact</a>
+              </div>
+        </ul>
+    </nav>
+</div>
+    <div class="main">
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>  
+        <h2>Collapsed Sidebar</h2>
+        <p>Click on the hamburger menu/bar icon to open the sidebar, and push this content to the right.</p>
+      </div>
+      
+      <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+        </script>
+       <div class="contactform">
+        <h1>Contact me for any Enquires</h1>
+        <form>
+          <div class="mb-3">
+            <label for="clientmail" class="form-label">NAME</label>
+            <input type="name" class="form-control" id="clientmail" aria-describedby="emailHelp">
+          </div>
+            <div class="mb-3">
+              <label for="clientmail" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="clientmail" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+           
+            <div class="mb-3">
+              <label for="clientphone" class="form-label">Phone</label>
+              <input type="phone" class="form-control" id="clientphone">
+            </div>
+            <div class="mb-3">
+              <label for="clientmail" class="form-label">Enquires</label>
+              <input type="enquires" class="form-control" id="clientmail" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3" id="form-check">
+              <input type="checkbox" class="form-check-input" id="isclient">
+              <label class="form-check-label" for="isclient">im interested to contact me</label>
+            </div>
+            <div class="buttons"></div>
+            <button type="submit" class="btn btn-sm">Submit</button>
+          </form> 
+       </div>
+    </div>
+ </div>
+</body>
+</html>

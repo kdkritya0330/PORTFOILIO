@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color:rgb(248, 246, 255);
+    width: 400px;
+    font-family: "Josefin Sans", sans-serif;
+    height: 200vh;
+
+}
+
+.sidebar nav {
+    padding: 17px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 9px;
+}
+
+ .sidebar nav li a{
+    text-decoration: none;
+    color: rgb(208, 7, 7);
+
+ }
+
+.main {
+    /*background-color: yellow;*/
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(26, 23, 23);
+}
+
+.infoContainer {
+   /* background-color: aqua;*/
+    height: 82vh;
+    width: 80vw;
+    margin: 75px;
+    margin-left: 130px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    background: rgb(93, 91, 89);
+   
+  
+     
+}
+
+      
+
+  
+ 
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Cabin", sans-serif;
+    margin-left: 25px;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 2s;
+    animation-fill-mode: forwards;
+  }
+  
+  #div1 {animation-timing-function: linear;}
+  #div2 {animation-timing-function: ease;}
+  #div3 {animation-timing-function: ease-in;}
+  #div4 {animation-timing-function: ease-out;}
+  #div5 {animation-timing-function: ease-in-out;}
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 250px;}
+}
+.hello{
+    font-size: 85px;
+
+}
+
+.name{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: "Edu NSW ACT Foundation", cursive;
+
+}
+
+.about{
+    font-size: 50px;
+}
+.aboutmore{
+    font-size: 22px;
+}
+.buttons{
+    margin-top: 34px;
+}
+
+.btn{
+    padding: 13px 36px;
+    border-radius: 25px;
+    color: antiquewhite;
+    background-color:rgb(26, 21, 21);
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.btn-sm{
+    font-size: 17px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+.btn:hover{
+    background-color: antiquewhite;
+    color:rgb(26, 21, 21);
+
+}
+
+
+.devpic img{
+    width: 567px;
+    height: 82vh;
+   
+}
+.contactform{
+    font-family: "Josefin Sans", sans-serif;
+    padding: 0 34px;
+    padding-top: 144px;
+
+}
+.contactform h1{
+    font-family: "Lora", serif;
+    text-align: center;
+
+
+}
+ 
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+     flex-direction: column;
+     padding: 12px;
+    
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    padding: 3px;
+
+}
+#emailhelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+    
+}
+#form-check{
+    flex-direction:  row;
+    margin: 5px 16px;
+
+
+}
+
+.form-check input{
+    width: 24px;
+    margin: 5px 16px;
+}
+
+.blogsContainer1{
+    background-color: rgb(162, 191, 255);
+height: 43vh;
+width: 16vw;
+margin: 77px;
+display: flex;
+justify-content: space-around;
+border-radius: 20px;
+position: absolute; 
+top: -16px;
+left: 363px;
+background-color: rgb(162, 191, 255);
+animation-name: example;
+animation-duration: 10s;
+}
+
+@keyframes example {
+0%   {background-color: rgb(238, 223, 223);}
+25%  {background-color: rgb(186, 186, 156);}
+50%  {background-color: rgb(179, 179, 216);}
+100% {background-color: rgb(162, 190, 162);}
+
+
+}
+
+
+
+.blogsContainer2{
+    background-color: rgb(162, 191, 255);
+height: 43vh;
+width: 16vw;
+margin: 75px;
+display: flex;
+justify-content: space-around;
+position: absolute; 
+top: -16px;
+left: 695px;
+border-radius: 20px;
+animation-name: example;
+animation-duration: 10s;
+}
+
+@keyframes example {
+0%   {background-color: red;}
+25%  {background-color: yellow;}
+50%  {background-color: blue;}
+100% {background-color: green;}
+
+
+
+
+}
+.blogsContainer3{
+    background-color: rgb(162, 191, 255);
+height: 43vh;
+width: 16vw;
+margin: 75px;
+display: flex;
+justify-content: space-around;
+position: absolute; 
+top: -16px;
+border-radius: 20px;
+left: 1039px;
+animation-name: example;
+animation-duration: 10s;
+}
+
+@keyframes example {
+0%   {background-color: red;}
+25%  {background-color: yellow;}
+50%  {background-color: blue;}
+100% {background-color: green;}
+
+
+
+
+}
+.btn-sm1{
+    position: absolute; 
+top: 259px;
+left: 73px;
+padding: 8px 22px;
+border-radius: 25px;
+color: antiquewhite;
+background-color:rgb(26, 21, 21);
+font-weight: bold;
+font-size: 14px;
+cursor: pointer;
+
+}
+.btn-sm2{
+
+        position: absolute; 
+    top: 259px;
+    left: 73px;
+    padding: 8px 22px;
+    border-radius: 25px;
+    color: antiquewhite;
+    background-color:rgb(26, 21, 21);
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+
+
+}
+.btn-sm3{
+    
+    position: absolute; 
+    top: 259px;
+    left: 73px;
+    padding: 8px 22px;
+    border-radius: 25px;
+    color: antiquewhite;
+    background-color:rgb(26, 21, 21);
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+
+
+}
+.blogsContainer1 h1{
+    font-size: 30px;
+    font-family: "Kanit", sans-serif;
+    padding: 30px;
+    margin-left: 4px;
+}
+.blogsContainer1 h2{
+    font-size: 30px;
+    font-family: "Kanit", sans-serif;
+    margin-left: -206px;
+    margin-top: 64px;
+}
+.blogsContainer2 h1{
+    font-size: 30px;
+    font-family: "Kanit", sans-serif;
+    padding: 30px;
+    margin-left: 4px;
+    
+
+  
+}
+.blogsContainer3 h1{
+    font-size: 30px;
+    font-family: "Kanit", sans-serif;
+    padding: 30px;
+    margin-top: 22px;
+}
+.blogsContainer3 h2{
+    font-size: 30px;
+    font-family: "Kanit", sans-serif;
+    padding: 30px;
+    margin-top: 22px;
+    margin-left: -52px;
+}
+.skillContainer h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Choose a modern sans-serif font */
+    color: #333; /* Set text color */
+    text-align: center; /* Center-align headings */
+    margin-bottom: 20px; /* Add space below headings */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Add letter spacing for emphasis */
+}
+.skillContainerinfo {
+background-color: aqua;
+/* CSS for small rows */
+
+    margin-bottom: 15px; /* Adjust spacing between rows */
+    padding: 50px; /* Add padding for better readability */
+    border: 1px solid #ccc; /* Add border for visual separation */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    background-color:rgb(241, 205, 205)/* Set background color */
+    
+    
+    
+
+
+   
+}
+
+
+
+.skillContainer2{
+    background-color: rgb(162, 191, 255);
+    margin-bottom: 20px; /* Adjust spacing between rows */
+    padding: 32px; /* Add padding for better readability */
+    border: 1px solid #ccc; /* Add border for visual separation */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    box-shadow: 10px 20px;
+    transition: transform 2.0s ease;
+    transform: translateY(-30%);
+     
+}
+.skillContainer3{
+    background-color: rgb(162, 191, 255);
+    margin-bottom: 20px; /* Adjust spacing between rows */
+    padding: 32px; /* Add padding for better readability */
+    border: 1px solid #ccc; /* Add border for visual separation */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    box-shadow: 10px 20px;
+    transition: transform 2.0s ease;
+    transform: translateY(-25%);
+}
+.skillContainer4{
+    background-color: rgb(162, 191, 255);
+margin-bottom: 20px; /* Adjust spacing between rows */
+padding: 32px; /* Add padding for better readability */
+border: 1px solid #ccc; /* Add border for visual separation */
+border-radius: 5px; /* Add border radius for rounded corners */
+box-shadow: 10px 20px;
+transition: transform 2.0s ease;
+transform: translateY(-20%);
+}
+.skillContainer5{
+    background-color: rgb(162, 191, 255);
+margin-bottom: 20px; /* Adjust spacing between rows */
+padding: 32px; /* Add padding for better readability */
+border: 1px solid #ccc; /* Add border for visual separation */
+border-radius: 5px; /* Add border radius for rounded corners */
+box-shadow: 10px 20px;
+transition: transform 2.0s ease;
+transform: translateY(-18%);
+}
+.skillContainer6{
+    background-color: rgb(162, 191, 255);
+    margin-bottom: 20px; /* Adjust spacing between rows */
+    padding: 32px; /* Add padding for better readability */
+    border: 1px solid #ccc; /* Add border for visual separation */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    box-shadow: 10px 20px;
+    transition: transform 2.0s ease;
+    transform: translateY(-15%);
+
+}
+.backgroundimage{
+    margin-top: -885px;
+    margin-left: 399px;
+}
+.subContainer{
+    height: 82vh;
+    width: 80vw;
+    margin: 75px; 
+   
+    margin: 75px;
+    margin-left: 130px;
+    /* display: flex; */
+    justify-content: space-around;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    background: rgb(93, 91, 89);
+   
+}
+.Blogscontainer{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+.servicecontainer1{
+    
+    background-color: rgb(162, 191, 255);
+    height: 50vh;
+    width: 20vw;
+    
+    display: flex;
+    justify-content: space-around;
+    border-radius: 130px;
+    position: absolute; 
+    margin-top: 143px;
+    left: 263px;
+    
+}
+.servicecontainer2{
+    background-color: rgb(162, 191, 255);
+    height: 50vh;
+    width: 20vw;
+    
+    display: flex;
+    justify-content: space-around;
+    border-radius: 130px;
+    position: absolute; 
+    margin-top: 143px;
+    left: 300px;
+    margin-left: 350px;
+    
+}
+.servicecontainer3{ 
+    background-color: rgb(162, 191, 255);
+    height: 50vh;
+    width: 20vw;
+    
+    display: flex;
+    justify-content: space-around;
+    border-radius: 130px;
+    position: absolute; 
+    margin-top: 143px;
+    left:300px;
+    margin-left: 750px;
+ 
+
+
+}
+.btn-se1{
+    padding: 16px 55px;
+    border-radius: 25px;
+    color: antiquewhite;
+    background-color:rgb(26, 21, 21);
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 35px;
+
+}
+.btn-se1:hover{
+  
+        background-color: antiquewhite;
+        color:rgb(26, 21, 21);
+    
+
+}
+.servicepic1 img{
+    width: 144px;
+    height: 16vh;
+    margin-top: 133px;
+    margin-right: 94px;
+   
+
+}
+.servicepic2 img{
+    width: 144px;
+    height: 16vh;
+    margin-top: 133px;
+    margin-right: 94px;
+}
+.servicepic3 img{
+    width: 144px;
+    height: 16vh;
+    margin-top: 133px;
+    margin-right: 94px;
+}
+
+  
+
+
+
+
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin-right: 1138px;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+
+  .tooltip1 {
+    position: relative;
+    display: inline-flex;
+    border-bottom: 1px dotted black;
+    margin-top: 150px;
+    margin-right:819px;
+  }
+  
+  .tooltip1 .tooltiptext1 {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip1:hover .tooltiptext1 {
+    visibility: visible;
+  }
+
+  .tooltip2 {
+    position: relative;
+    display: inline-flex;
+    border-bottom: 1px dotted black;
+    margin-top: 150px;
+    margin-left: -468px;
+  }
+  
+  .tooltip2 .tooltiptext2 {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip2:hover .tooltiptext2 {
+    visibility: visible;
+  }
+  .subinfocontainer{
+    background-color: aliceblue;
+    height: 30vh;
+    width: 80vw;
+    margin: 75px; 
+
+  }
+  .infosubcontainer{
+    margin-top: 180px
+  }
